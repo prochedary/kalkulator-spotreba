@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1512726672 source:c:\codeblocks\projekty\projekt\main.cpp
+	<iostream>
+	<algorithm>
+	<fstream>
+	<string>
+	<vector>
+	<cstdlib>
+	<cmath>
+	"../fgw_headers/fgw_text.h"
+
+1512648592 c:\codeblocks\projekty\projekt\projekt.h
+	<fstream>
+
+1512648693 source:c:\codeblocks\projekty\projekt\projekt.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"projekt.h"
+	"../fgw_headers/fgw_text.h"
+
+1088075842 c:\codeblocks\knihovny\fgw_headers\playpen.h
+	"fgw_text.h"
+	<bitset>
+	<iostream>
+	<string>
+
+1126269892 c:\codeblocks\knihovny\fgw_headers\fgw_text.h
+	<cctype>
+	<climits>
+	<exception>
+	<fstream>
+	<iostream>
+	<string>
+
