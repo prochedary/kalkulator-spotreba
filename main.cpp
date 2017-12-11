@@ -73,12 +73,12 @@ int main()
         spotrebaprumer=spotrebacelkem/pocet;
         }
         //vypsani
-        cout << "Kilometry celkem " << kmcelkem << endl;
-        cout << "Litry celkem " << litrycelkem << endl;
+        //cout << "\nKilometry celkem " << kmcelkem << endl;
+        //cout << "Litry celkem " << litrycelkem << endl;
         cout << "Kilometry prumer " << kmprumer << endl;
         cout << "Cena za jeden kilometr " << jedenkm << endl;
-        cout << "Prumerna spotreba " << spotreba << endl;
-        cout << "Spotreba celkem " << spotrebacelkem << endl;
+        //cout << "Prumerna spotreba " << spotreba << endl;
+        //cout << "Spotreba celkem " << spotrebacelkem << endl;
         cout << "Prumerna spotreba celkem " << spotrebaprumer << endl;
         break;
 
@@ -144,11 +144,11 @@ int main()
         spotrebacelkem=spotrebacelkem+((litrycelkem/kmcelkem)*100);
         spotrebaprumer=spotrebacelkem/line;
 
-        cout << "\nKilometry celkem " << kmcelkem << endl;
-        cout << "Litry celkem " << litrycelkem << endl;
+        //cout << "\nKilometry celkem " << kmcelkem << endl;
+        //cout << "Litry celkem " << litrycelkem << endl;
         cout << "Kilometry prumer " << kmprumer << endl;
         cout << "Cena za jeden kilometr " << jedenkm << endl;
-        cout << "Cena celkem " << kccelkem << endl;
+        //cout << "Cena celkem " << kccelkem << endl;
         //cout << "Prumerna spotreba (posledni zadana hodnota) " << spotreba << endl;
         cout << "Spotreba celkem " << spotrebacelkem << endl;
         cout << "Prumerna spotreba celkem " << spotrebaprumer << endl;

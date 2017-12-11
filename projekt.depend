@@ -33,3 +33,13 @@
 	<iostream>
 	<string>
 
+1513012255 source:c:\users\radek\downloads\kalkulator-spotreba-master\kalkulator-spotreba-master\main.cpp
+	<iostream>
+	<algorithm>
+	<fstream>
+	<string>
+	<vector>
+	<cstdlib>
+	<cmath>
+	"../fgw_headers/fgw_text.h"
+
