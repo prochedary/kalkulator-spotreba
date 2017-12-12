@@ -7,6 +7,7 @@
 #include <cstdlib>
 #include <cmath>
 #include "../fgw_headers/fgw_text.h"
+#include "projekt.h"
 
 using namespace std;
 using namespace fgw;
@@ -139,17 +140,20 @@ int main()
             litrycelkem=litrycelkem-litry;
 
         //vypocty
-        kmprumer=(kmcelkem)/line;
-        spotreba=litry/km*100;
-        spotrebacelkem=spotrebacelkem+((litrycelkem/kmcelkem)*100);
-        spotrebaprumer=spotrebacelkem/line;
+        kmprumer = (kmcelkem)/line;
+        spotreba = spotrebacpp(litry, km);
+        spotrebacelkem = spotrebacelkemcpp(spotrebacelkem, litrycelkem, kmcelkem);
+        spotrebaprumer = spotrebaprumercpp(spotrebacelkem);
+        //spotreba=litry/km*100;
+        //spotrebacelkem=spotrebacelkem+((litrycelkem/kmcelkem)*100);
+        //spotrebaprumer=spotrebacelkem/line;
 
         //cout << "\nKilometry celkem " << kmcelkem << endl;
         //cout << "Litry celkem " << litrycelkem << endl;
         cout << "Kilometry prumer " << kmprumer << endl;
         cout << "Cena za jeden kilometr " << jedenkm << endl;
         //cout << "Cena celkem " << kccelkem << endl;
-        //cout << "Prumerna spotreba (posledni zadana hodnota) " << spotreba << endl;
+        cout << "Prumerna spotreba (posledni zadana hodnota) " << spotreba << endl;
         cout << "Spotreba celkem " << spotrebacelkem << endl;
         cout << "Prumerna spotreba celkem " << spotrebaprumer << endl;
 

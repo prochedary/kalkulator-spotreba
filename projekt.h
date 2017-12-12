@@ -3,7 +3,8 @@
 
 #include <fstream>
 
-int vezmi_int();
-int vezmi_int(std::istream & zdroj);
+double spotrebacpp(double litry, double km);
+double spotrebacelkemcpp(double spotrebacelkem, double litrycelkem, double kmcelkem);
+double spotrebaprumercpp(double spotrebacelkem);
 
 #endif // NASTROJE_H_INCLUDED
